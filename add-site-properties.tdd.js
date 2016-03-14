@@ -1,5 +1,5 @@
 // SCRIPT METADATA BLOCK - USED BY TDD FOR SCRIPT CUSTOMIZATION AND EXECUTION
-const scriptMeta = {
+var scriptMeta = {
 	title: 'Add a Single Site Property',
 	description: 'Add a single site property to a site config.',
 	allowMultiple: false,
@@ -19,7 +19,7 @@ const scriptMeta = {
 };
 // END SCRIPT METADATA BLOCK
 
-const scriptFunc = (params) => {
+function scriptFunc(params) {
 	var name = params.propertyName,
 	value = params.propertyValue;
 
@@ -37,4 +37,4 @@ const scriptFunc = (params) => {
 	}
 };
 
-export default {metadata: scriptMeta, func: scriptFunc};
+module.exports = { metadata: scriptMeta, func: scriptFunc };
