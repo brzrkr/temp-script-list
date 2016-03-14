@@ -1,6 +1,26 @@
-module.exports = function(params){
+// SCRIPT METADATA BLOCK - USED BY TDD FOR SCRIPT CUSTOMIZATION AND EXECUTION
+const scriptMeta = {
+	description: 'Add a single site property to a site config.',
+	allowMultiple: false,
+	fields: [{
+			name: 'propertyName',
+			label: 'Property Name',
+			type: 'text',
+			required: true
+		},
+		{
+			name: 'propertyValue',
+			label: 'Property Value',
+			type: 'text',
+			required: true
+		}
+	}
+};
+// END SCRIPT METADATA BLOCK
+
+const scriptFunc = (params) => {
 	var name = params.propertyName,
-		value = params.propertyValue;
+	value = params.propertyValue;
 
 	return {
 		'config': function($) {
@@ -15,3 +35,5 @@ module.exports = function(params){
 		}
 	}
 };
+
+export default {metadata: scriptMeta, func: scriptFunc};
