@@ -1,5 +1,6 @@
 // SCRIPT METADATA BLOCK - USED BY TDD FOR SCRIPT CUSTOMIZATION AND EXECUTION
 const scriptMeta = {
+	title: 'Add a Single Site Property',
 	description: 'Add a single site property to a site config.',
 	allowMultiple: false,
 	fields: [{
