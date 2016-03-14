@@ -1,0 +1,9 @@
+<script multiple='false'>
+	<description>
+		<![CDATA[
+			Changes the page id for an existing alias. Requires page alias and page id.
+		]]>
+	</description>
+	<field name='pageAlias' fieldLabel='pageAlias' type="text" required='true'/>
+	<field name='pageId' fieldLabel='Page Id' type="text" required='true'/>
+</script>

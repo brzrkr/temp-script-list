@@ -1,0 +1,8 @@
+<script multiple='false'>
+	<description>
+		<![CDATA[
+			Remove a page from a site. Requires the page alias.
+		]]>
+	</description>
+	<field name='pageAlias' fieldLabel='pageAlias' type="text" required='true'/>
+</script>

@@ -1,0 +1,9 @@
+<script multiple='false'>
+	<description>
+		<![CDATA[
+			Add a single site property to a site config.
+		]]>
+	</description>
+	<field name='propertyName' fieldLabel='Property Name' type="text" required='true'/>
+	<field name='propertyValue' fieldLabel='Property Value' type="text" required='true'/>
+</script>

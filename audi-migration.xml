@@ -1,0 +1,10 @@
+<script multiple='false'>
+	<description>
+		<![CDATA[
+		The Audi Migration Script. An array of items that are needed to set up the Audi Tire 2 DVS files.
+		]]>
+	</description>
+	<field name='themeKit' fieldLabel='Themekit' type="text" required='true'/>
+	<field name='profile' fieldLabel='Profile' type="text" required='true'/>
+	<field name='variation' fieldLabel='Variation' type="text" required='true'/>
+</script>

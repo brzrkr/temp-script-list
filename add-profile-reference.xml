@@ -1,0 +1,9 @@
+<script multiple='false'>
+	<description>
+		<![CDATA[
+			Add a profile reference to a site.
+		]]>
+	</description>
+	<field name='profile' fieldLabel='Profile Name' type="text" required='true'/>
+	<field name='replaceExisting' fieldLabel='Replace Existing Profile' type="checkbox" required='true'/>
+</script>

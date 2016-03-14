@@ -1,0 +1,9 @@
+<script multiple='false'>
+	<description>
+		<![CDATA[
+			Set the variation and color theme for the site.
+		]]>
+	</description>
+	<field name='variation' fieldLabel='Variation' type="text" required='true'/>
+	<field name='color' fieldLabel='Color' type="text" required='true'/>
+</script>

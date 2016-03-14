@@ -1,0 +1,9 @@
+<script multiple='false'>
+	<description>
+		<![CDATA[
+			Remove an entire window preference override. Requires the page alias and window id.
+		]]>
+	</description>
+	<field name='pageAlias' fieldLabel='pageAlias' type="text" required='true'/>
+	<field name='windowId' fieldLabel='Window Id' type="text" required='true'/>
+</script>

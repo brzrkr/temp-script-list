@@ -1,0 +1,11 @@
+<script multiple='false'>
+	<description>
+		<![CDATA[
+			Change the value of a specific widget preference. This script requires the page alias, the window id of the widget, the preference name, and the new value.
+		]]>
+	</description>
+	<field name='pageAlias' fieldLabel='pageAlias' type="text" required='true'/>
+	<field name='windowId' fieldLabel='Window Id' type="text" required='true'/>
+	<field name='prefName' fieldLabel='Preference Name' type="text" required='true'/>
+	<field name='prefValue' fieldLabel='Preference Value' type="text" required='true'/>
+</script>

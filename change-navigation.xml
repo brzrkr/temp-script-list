@@ -1,0 +1,9 @@
+<script multiple='false'>
+	<description>
+		<![CDATA[
+
+		]]>
+	</description>
+	<field name='oldNavItem' fieldLabel='Existing Navigation Page' type="text" required='true'/>
+	<field name='newNavItem' fieldLabel='New Navigation Page' type="text" required='true'/>
+</script>

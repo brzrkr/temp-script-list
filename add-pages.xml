@@ -1,0 +1,10 @@
+<script multiple='true'>
+	<description>
+		<![CDATA[
+		Add a page(s) to a list of sites. Page Alias and Page Path are required and the Page ID is optional.
+		]]>
+	</description>
+	<field name='pageAlias' fieldLabel='Page Alias' type="text" required='true'/>
+	<field name='pageId' fieldLabel='PageID' type="text" required='false'/>
+	<field name='pagePath' fieldLabel='Page Path' type="text" required='true'/>
+</script>
