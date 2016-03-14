@@ -15,7 +15,7 @@ var scriptMeta = {
 			type: 'text',
 			required: true
 		}
-	}
+	]
 };
 // END SCRIPT METADATA BLOCK
 
